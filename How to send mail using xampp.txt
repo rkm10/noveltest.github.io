@@ -1,0 +1,27 @@
+1) Step 1:- 
+Go to file:///C:/xampp/php/php.ini
+Search for [mail function]
+
+(Change mail id below)
+
+SMTP=smtp.gmail.com
+smtp_port=587
+sendmail_from = t29611420@gmail.com
+sendmail_path = "\"C:\xampp\sendmail\sendmail.exe\" -t"
+
+----------------------------------------------------------------------------
+2) Step 2:-
+Go to file:///C:/xampp/sendmail/sendmail.ini
+
+Search for [sendmail]
+
+(Change mail id and app-password below)
+(Delete all and add only these)
+
+smtp_server=smtp.gmail.com
+smtp_port=587
+error_logfile=error.log
+debug_logfile=debug.log
+auth_username=t29611420@gmail.com
+auth_password=rhux blxv qeft yuhl
+force_sender=t29611420@gmail.com
